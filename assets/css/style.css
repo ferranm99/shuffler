@@ -1559,7 +1559,7 @@ body.loaded .preloader {
     margin: 0 auto;
     border-radius: 3rem;
     background-color: #f0f7fc;
-    padding: 18.4rem 0 9.9rem 0;
+    padding: 10rem 0 9.9rem 0;
 }
 .hero .main-heading {
     font-size: 8rem;
@@ -1615,7 +1615,7 @@ body.loaded .preloader {
 }
 @media (min-width: 991.98px) and (max-width: 1200px) {
     .hero__wrapper {
-        padding: 18.4rem 1rem 9.9rem 1rem;
+        padding: 10rem 1rem 9.9rem 1rem;
     }
     .hero .main-heading {
         font-size: 6rem;
