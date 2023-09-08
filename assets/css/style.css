@@ -1292,7 +1292,7 @@ body.loaded .preloader {
         display: block;
         width: 0;
         height: 0.15rem;
-        background-color: #666b6d;
+        /*background-color: #666b6d;*/
         position: absolute;
         top: 100%;
         left: 50%;
@@ -2073,7 +2073,7 @@ body.loaded .preloader {
     width: 100vw;
 }
 .growth__wrapper {
-    background-color: #f0f7fc;
+    background-color: #fff6e9;
     padding: 15rem 0;
     width: calc(100% - 10rem);
     margin: 0 auto;
@@ -2179,9 +2179,18 @@ body.loaded .preloader {
         -webkit-transform: translateY(-50%) rotate(90deg);
     }
 }
-.growth .row > div:nth-child(n + 3) {
-    margin-top: 3rem;
+
+@media (min-width: 991.98px) and (max-width: 1200px) {
+    #phonePic{
+        padding-left: 2%;
+    }
 }
+@media (min-width: 1200px) {
+    #phonePic{
+        padding-left: 25%;
+    }
+}
+
 .growth .button__wrapper {
     margin-top: 5rem;
 }
