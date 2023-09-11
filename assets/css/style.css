@@ -1241,7 +1241,7 @@ body.loaded .preloader {
 }
 .header {
     position: absolute;
-    top: 5rem;
+    top: 1rem;
     z-index: 100;
     background-color: transparent;
     padding: 1rem 0 1rem 0;
@@ -1558,7 +1558,7 @@ body.loaded .preloader {
 }
 .hero {
     width: 100vw;
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 .hero__wrapper {
     width: calc(100% - 10rem);
@@ -1753,14 +1753,14 @@ body.loaded .preloader {
 .feature__box--4 {
     margin-top: 10rem;
 }
-.feature__box--2:hover,
+/*.feature__box--2:hover,
 .feature__box--4:hover {
     margin-top: 0;
 }
 .feature__box--1:hover,
 .feature__box--3:hover {
     margin-top: 10rem;
-}
+}*/
 .feature__box--1 .feature__box__wrapper {
     background-color: #efdff7;
 }
@@ -1774,8 +1774,8 @@ body.loaded .preloader {
     background-color: #ffdae8;
 }
 .feature__box .icon {
-    width: 24.2rem;
-    height: 24.2rem;
+    width: 20rem;
+    height: 20rem;
     margin: 0 auto;
     border-radius: 50%;
     display: -webkit-box;
@@ -2189,10 +2189,23 @@ body.loaded .preloader {
     #phonePic{
         padding-left: 2%;
     }
+
+    .sketch{
+        width:70%;
+    }
 }
 @media (min-width: 1200px) {
     #phonePic{
         padding-left: 25%;
+    }
+    .sketch{
+        width:60%;
+    }
+}
+
+@media (max-width: 991.98px){
+    .sketch{
+        width: 95%;
     }
 }
 
@@ -2290,7 +2303,7 @@ body.loaded .preloader {
 }
 .step__wrapper {
     margin: 5rem 0;
-    background-color: #dbede3;
+    background-color: #d0f3f2;
     padding: 15rem 0;
     width: calc(100% - 10rem);
     margin: 0 auto;
@@ -3381,6 +3394,14 @@ body.loaded .preloader {
         width: 100%;
         text-align: center;
         margin-top: 4rem;
+    }
+}
+
+
+
+@media (min-width: 1200px){
+    .funcs {
+        max-width: 80%;
     }
 }
 /*# sourceMappingURL=style.css.map */
