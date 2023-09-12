@@ -2184,9 +2184,12 @@ body.loaded .preloader {
         -webkit-transform: translateY(-50%) rotate(90deg);
     }
 }
+.phoneBox{
+    margin-top: 15rem;
+}
 
 @media (min-width: 991.98px) and (max-width: 1200px) {
-    #phonePic{
+    .phonePic{
         padding-left: 2%;
     }
 
@@ -2195,11 +2198,14 @@ body.loaded .preloader {
     }
 }
 @media (min-width: 1200px) {
-    #phonePic{
+    .phonePic{
         padding-left: 25%;
     }
     .sketch{
         width:60%;
+    }
+    .phoneBox{
+        margin-top: 20rem;
     }
 }
 
