@@ -2207,6 +2207,9 @@ body.loaded .preloader {
     /*.phoneBox{
         margin-top: 20rem;
     }*/
+    .howWorks{
+        width: 80%;
+    }
 }
 
 @media (max-width: 991.98px){
