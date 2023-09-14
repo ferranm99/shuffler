@@ -7490,6 +7490,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #777777;
 }
 
+.backbtn{
+  float:none;
+  position: absolute;
+}
+
+.backbtn i {
+  font-size: 20px;
+  margin-top: 3px;
+  float: none;
+  margin-left: 10px;
+}
+
 #fh5co-header {
   float: left;
   width: 100%;
@@ -7605,6 +7617,12 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
     padding-left: 0;
     margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 349px) and (max-width: 480px) {
+  #fh5co-header .navbar-brand{
+    margin-top:6rem;
   }
 }
 
