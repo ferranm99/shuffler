@@ -2185,7 +2185,7 @@ body.loaded .preloader {
     }
 }
 .phoneBox{
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
 
 @media (min-width: 991.98px) and (max-width: 1200px) {
@@ -2204,9 +2204,9 @@ body.loaded .preloader {
     .sketch{
         width:60%;
     }
-    .phoneBox{
+    /*.phoneBox{
         margin-top: 20rem;
-    }
+    }*/
 }
 
 @media (max-width: 991.98px){
