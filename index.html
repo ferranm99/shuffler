@@ -23,7 +23,18 @@
   <!--preloader start-->
   <div class="preloader">
     <img src="assets/images/footer-logo.png" alt="image" width="300">
+    <p id="introText"></p>
   </div>
+  <script>
+    var texts = [
+      "Turn your passion for music into stunning videos with friends!",
+      "Don't just sing in the shower, make epicly funny music videos with your buddies!",
+      "Turn your love for music into a music video with friends.",
+      "Make music video with your friends for your favorite song!"
+    ]
+    var p = document.getElementById("introText");
+    p.innerHTML = texts[Math.floor(Math.random() * texts.length)];
+  </script>
   <!--preloader end-->
 
   <!--header section start-->
@@ -79,7 +90,17 @@
         <div class="row align-items-lg-center phoneBox">
           <div class="col-lg-6 order-2 order-lg-1">
             <h1 class="main-heading color-black" style="font-family: 'Raleway', sans-serif;">SHUFFLER</h1>
-            <p class="paragraph" style="font-family: 'Raleway', sans-serif;">Create Music Videos with your Friends</p>
+            <p id="intro2" class="paragraph" style="font-family: 'Raleway', sans-serif;">Create Music Videos with your Friends</p>
+            <script>
+              var d = document.getElementById("intro2");
+              var i = 0;
+              function changeText(){
+                d.innerHTML = texts[i];
+                i++;
+                if (i === texts.length) i= 0;
+              }
+              setInterval(changeText, 3000);
+            </script>
             <div class="download-buttons">
               <a href="https://play.google.com/store/apps/details?id=com.shufflerapp0" target="_blank" class="google-play">
                 <i class="fab fa-google-play"></i>

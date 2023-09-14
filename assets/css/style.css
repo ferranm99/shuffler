@@ -3413,4 +3413,13 @@ body.loaded .preloader {
         max-width: 80%;
     }
 }
+#introText{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
 /*# sourceMappingURL=style.css.map */
