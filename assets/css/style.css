@@ -3413,6 +3413,12 @@ body.loaded .preloader {
         max-width: 80%;
     }
 }
+
+@media (max-width: 524px){
+    #splash {
+        width: 300px;
+    }
+}
 #introText{
     position: absolute;
     top: 60%;
