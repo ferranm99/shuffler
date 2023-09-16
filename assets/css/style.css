@@ -3431,7 +3431,7 @@ body.loaded .preloader {
 
 #loading{
     position: absolute;
-    top:85%;
+    bottom:150px;
     left: 50%;
     transform: translateX(-50%);
     color: black;
