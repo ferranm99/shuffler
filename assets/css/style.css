@@ -3441,7 +3441,7 @@ body.loaded .preloader {
 
 @media (max-width: 415px){
     #splash{
-        top:40%;
+        top:30%;
     }
     #introText{
         top:50%;
