@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>Shuffler - Delete User</title>
+</head>
+<body>
+<div>
+ Shuffler - delete user
+<input id="deletecode" type="text" />
+
+<button onclick="DeleteUser()">Delete User</button>
+
+</div>
+	<script>
+		const urlParams = new URLSearchParams(window.location.search);
+		const code = urlParams.get('code');
+		var element = document.getElementById('deletecode');
+		element.value = code;
+
+		function DeleteUser() {
+			debugger;
+			fetch("https://dev-shuffler.northeurope.cloudapp.azure.com/Account/UserDelete?code=" + element.value).then(async (response) => {
+				const data = await response.json();
+			});
+		} 
+	</script>
+</body>
+</html>
