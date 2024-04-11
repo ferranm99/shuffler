@@ -2054,7 +2054,7 @@ body.loaded .preloader {
     }
 
     .portrait-vid{
-        width:50%;
+        width:90%;
     }
 }
 @media (max-width: 767.98px) {
@@ -3447,4 +3447,9 @@ body.loaded .preloader {
         top:50%;
     }
 }
+
+.portrait-vid {
+    max-height: 800px;
+    width: auto;
+  }
 /*# sourceMappingURL=style.css.map */
