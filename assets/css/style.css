@@ -3453,3 +3453,7 @@ body.loaded .preloader {
     width: auto;
   }
 /*# sourceMappingURL=style.css.map */
+
+.pink-link {
+  color: #e91e63 !important; /* Pink (Material Design) */
+}
